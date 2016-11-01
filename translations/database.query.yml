@@ -1,0 +1,8 @@
+description: 'Ejecuta una sentencia SQL directamente como argumento'
+arguments:
+    query: "La sentencia SQL a ejecutar"
+    database: 'Clave de la base de datos, desde settings.php'
+messages:
+    connection: 'Conexión: "%s"'
+    executing: 'Ejecutando: "%s"'
+help: 'El primer argumento debe ser la sentencia SQL entre comillas. El segundo argumento puede ser el nombre de la base de datos afectada.'
