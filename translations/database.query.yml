@@ -2,6 +2,14 @@ description: 'Ejecuta una sentencia SQL directamente como argumento'
 arguments:
     query: "La sentencia SQL a ejecutar"
     database: 'Clave de la base de datos, desde settings.php'
+options:
+    quick: "No cachea cada resultado de la query, lo imprime según lo recibe"
+    debug: "Produce cierta información sobre memoria y uso de la CPU"
+    html: "Produce el resultado en formato HTML"
+    xml: "Produce el resultado en formato XML"
+    raw: "No escapa los caracteres \\n, \\t, \\0, y \\\. Además, muestra un formato no-tabular"
+    vertical: "Imprime las filas en vertical"
+    batch: "No se usa el archivo de historia e imprime los resultados usando el tabulador como separador de columnas"
 messages:
     connection: 'Conexión: "%s"'
     executing: 'Ejecutando: "%s"'
