@@ -14,3 +14,4 @@ messages:
     error-copying-file: 'Error copiando el archivo'
     error-writing-file: 'Error copiando el archivo'
     services-file-overwritten: 'El archivo de servicios "%s" ha sido sobreescrito'
+    cachebins: 'Render Cache y Dynamic Render Caché han sido deshabilitadas'
